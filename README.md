@@ -24,15 +24,17 @@ Steps:
    
    h. The following .xml files, all of which are templates that will be converted into OpenSim setup files to quickly population fields:
 
-      i. ScaleXMLTemplate.xml
-      ii. IK_Template.xml
-      iii. ID_Template.xml
+         i. ScaleXMLTemplate.xml
+   
+         ii. IK_Template.xml
+   
+         iii. ID_Template.xml
 
    i. LFB_model.osim (the base OpenSim model)
    
-2. Run NoraxonToOpenSimSINGLE.m. Output should be a .trc file, a _GRF.mot file, Scale_Setup.xml, IK_Setup.xml, ID_Setup.xml. The other .txt files created can be deleted.
-3. In OpenSim now - load LFB_model.osim model
-4. Scale model: load Scale_Setup.xml and run. Once done, remove LFB_model.osim
-5. Inverse Kinematics: load IK_Setup.xml and run
-6. Inverse Dynamics: load ID_Setup.xml and run
-7. Right-click IDResults and save to a .sto file
+3. Run NoraxonToOpenSimSINGLE.m. Output should be a .trc file, a _GRF.mot file, Scale_Setup.xml, IK_Setup.xml, ID_Setup.xml. The other .txt files created can be deleted.
+4. In OpenSim now - load LFB_model.osim model
+5. Scale model: load Scale_Setup.xml and run. Once done, remove LFB_model.osim
+6. Inverse Kinematics: load IK_Setup.xml and run
+7. Inverse Dynamics: load ID_Setup.xml and run
+8. Right-click IDResults and save to a .sto file
