@@ -20,7 +20,7 @@ Steps:
    
    f. NoraxonMarkersCLOSE.xml
    
-   g. Scale_Setup.xml
+   g. ScaleXMLTemplate.xml
    
 3. Edit lines 26-29 to read files from your system 
 4. Change the parameters in lines 17-19 (Subject name, bodyweight in lbs, Noraxon data file name)
