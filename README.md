@@ -37,4 +37,4 @@ Steps:
 5. Scale model: load Scale_Setup.xml and run. Once done, remove LFB_model.osim
 6. Inverse Kinematics: load IK_Setup.xml and run. Joint angles will be saved to a .mot file (NOT the _GRF.mot file)
 7. Inverse Dynamics: load ID_Setup.xml and run.
-8. Right-click IDResults and save to a .sto file
+8. Right-click IDResults and save to a .sto file. You can open the .sto file into an Excel spreadsheet through Data --> From Text/CSV. Ensure you allow the search for "All Files" in order to see the .sto and .mot files.
