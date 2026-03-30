@@ -1,4 +1,7 @@
 # Noraxon-To-OpenSim
+
+THIS IS OBSOLETE AS OF 3.30.2026. GO TO https://github.com/vzw4/Noraxon-To-OpenSim-MATLABpipeline INSTEAD
+
 Batch converts Noraxon IMU/Insole data into .trc and .mot file for OpenSim biomechanical analysis
 
 This code utilizes trajectory outputs from Noraxon IMUs as virtual bony markers to create a .trc file of coordinates for each marker. It also converts Noraxon insole data into a vGRFs and CoP .mot to use in OpenSim. It then uses a MATLAB wrapper to run kinematics, kinetics, JointReactions, and BodyKinematics analysis in OpenSim. 
